@@ -1,0 +1,89 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="My Nanodegree Apps!"
+        android:gravity="center_horizontal"
+        android:textSize="27sp"
+        android:paddingBottom="16dp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="#000000"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Spotify Streamer"
+        android:id="@+id/button"
+        android:layout_margin="16dp"
+        android:background="#5C6BC0"
+        android:textColor="#FFFFFF"
+        android:onClick="spotiMessage"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Scores App"
+        android:textAllCaps="true"
+        android:id="@+id/button2"
+        android:layout_margin="16dp"
+        android:background="#5C6BC0"
+        android:textColor="#FFFFFF"
+        android:onClick="scoreMessage"/>
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Library App"
+        android:textAllCaps="true"
+        android:id="@+id/button3"
+        android:layout_margin="16dp"
+        android:background="#5C6BC0"
+        android:textColor="#FFFFFF"
+        android:onClick="libraryMessage"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="build it bigger"
+        android:textAllCaps="true"
+        android:id="@+id/button4"
+        android:layout_margin="16dp"
+        android:background="#5C6BC0"
+        android:textColor="#FFFFFF"
+        android:onClick="buildMessage"
+       />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="XYZ READER"
+        android:id="@+id/button5"
+        android:layout_margin="16dp"
+        android:background="#5C6BC0"
+        android:textColor="#FFFFFF"
+        android:onClick="xyzMessage"
+       />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="cAPSTONE: MY OWN APP"
+        android:id="@+id/button6"
+        android:layout_margin="16dp"
+        android:background="#D50000"
+        android:textColor="#FFFFFF"
+        android:onClick=""
+        />
+
+</LinearLayout>
